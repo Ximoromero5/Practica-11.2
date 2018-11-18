@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 370px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}
+form{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(25%);
+    width: 80%;
+    background: none;
+    height: 600px;
+}
+form>input[type="text"], form>input[type="email"], form>input[type="date"]{
+    width: 300px;
+    height: 10px;
+    padding: 18px 12px;
+    border: 1px solid #c9c9c9;
+    transition: all 0.1s;
+    color: #333;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+form>input:focus{
+    border: 1px solid #333;
+    outline: 0px;
+}
+span{
+    position: absolute;
+    font-size: 14px;
+    color: #767676;
+    font-weight: lighter;
+    transform: translateX(-270px);
+    top: 65px;
+}
+form>input[type="submit"]{
+    padding: 10px 22px;
+    cursor: pointer;
+    position: relative;
+    background: #ff6200;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 1px;
+    right: 62px;
+    top: 520px;
+}
+#obligatorio{
+    position: absolute;
+    right: 62%;
+    top: 26%;
+    font-size: 12px;
+}
+#precon{
+    font-weight: lighter;
+    font-size: 12px;
+    position: relative;
+    top: 30%;
+    color: grey;
+    left: 86px;
+}
+#precon>a{
+    color: #000;
+    text-decoration-style: dashed;
+    text-decoration-color: darkorange;
+    transition: all 0.5s;
+}
+#precon>a:hover{
+    color: darkorange;
+}
+textarea{
+    width: 1025px;
+    height: 100px;
+    border: 1px solid lightgray;
+    resize: none;
+    position: relative;
+    bottom: 150px;
+    left: 16%;
+    color: grey;
+    padding: 10px;
+}
+#pulsar{
+    position: absolute;
+    right: -45px;
+    top: 600px;
+    font-size: 12px;
+}
+hr{
+    position: relative;
+    width: 69%;
+    bottom: 70px;
+    left: 240px;
+}
